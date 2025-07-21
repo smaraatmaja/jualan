@@ -238,7 +238,9 @@ button {
   align-items: center;
   justify-content: center;
 }
-
+.tes {
+  margin-left: 100px;
+}
 /* ========== BUTTONS ========== */
 .btn-primary {
   background: var(--clr-primary);
