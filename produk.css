@@ -277,6 +277,8 @@ button {
 }
 
 .pill-btn {
+  width: 70px;
+  height: 35px;
   background: var(--clr-white);
   border: 1px solid #ddd;
   color: var(--clr-text-light);
