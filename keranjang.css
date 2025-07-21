@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+
+header {
+    background: #2ebf91;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+ul#cartItems {
+    list-style: none;
+    padding: 0;
+}
+
+/* Ukuran dasar */
+.cart-item {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
+  align-items: center;
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.cart-item img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.item-details {
+  flex: 1;
+  font-size: 0.9rem;
+}
+
+.item-details h4 {
+  margin: 4px 0;
+  font-size: 0.95rem;
+}
+
+.qty-controls {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 5px;
+}
+
+.qty-controls button {
+  background: var(--clr-primary, #2ebf91);
+  color: white;
+  border: none;
+  padding: 3px 8px;
+  font-size: 0.85rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.qty-controls span {
+  min-width: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.cart-footer {
+  background: #fff;
+  padding: 10px 16px;
+  border-top: 1px solid #ddd;
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.05);
+}
+
+
+.cart-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.cart-buttons .btn-checkout,
+.cart-buttons .btn-back {
+  flex: 1;
+  padding: 8px;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: var(--clr-primary, #2ebf91);
+}
+
+/* ✅ Media query untuk HP */
+@media (max-width: 480px) {
+  .cart-item {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px;
+  }
+
+  .cart-item img {
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+  }
+
+  .item-details {
+    width: 100%;
+    font-size: 0.85rem;
+  }
+
+  .item-details h4 {
+    font-size: 0.9rem;
+  }
+
+  .qty-controls {
+    justify-content: start;
+  }
+
+  .cart-buttons .btn-checkout,
+  .cart-buttons .btn-back {
+    font-size: 0.85rem;
+    padding: 7px;
+  }
+}
+
+.cart-item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 1rem;
+    align-items: center;
+    background: #f9f9f9;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.cart-item img {
+    width: 80px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.item-details {
+    flex: 1;
+}
+
+.qty-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 5px;
+}
+
+.qty-controls button {
+    background: var(--clr-primary, #2ebf91);
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.qty-controls span {
+    min-width: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/**/
