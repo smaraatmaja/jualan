@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="produk.css">
+    <script src="produk.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1B4v5c4Z1p2MQS8tZL+9e9ZB7xYuFeoJAJ6Digw1VE3D6Z0fjQX+0xXr3rY6x0x5Mw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- ===== Header / Nav ===== -->
+  <header class="site-header">
+     <div class="header-inner container">
+        <h1 class="logo">TokoKita</h1>
+        <a href="keranjang.html" class="tes"><button class="mobile-nav-toggle">🛒</button></a>
+        <button class="mobile-nav-toggle" onclick="toggleNav()">☰</button>
+        
+        <nav class="main-nav" id="mainNav">
+            <button class="nav-close" onclick="toggleNav()">✖</button>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="produk.html">Produk</a></li>
+                <li><a href="#foto">foto</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+     </div>
+  </header>  
+    <!-- ===== Great Deals ===== -->
+  <section class="product-section container" id="great-deals">
+    <div class="section-head">
+      <div class="section-filters">
+        <button class="pill-btn" onclick="resetFilter()">All</button>
+        <button class="pill-btn" onclick="filterProduk('women')">Women</button>
+        <button class="pill-btn" onclick="filterProduk('kids')">Kids</button>
+      </div>
+    </div>
+    <div class="product-grid" id="dealsGrid"></div>
+    <div class="section-foot">
+      <button class="btn-outline" onclick="resetFilter()">Lihat Semua</button>
+    </div>
+  </section>
+
+    <!-- ===== Kategori Cepat ===== -->
+  <section class="category-cards container" id="foto">
+    <article class="cat-card" data-cat="men" onclick="filterProduk('men')">
+      <img src="foto-tes.JPG" alt="Pria"/>
+      <h3>Shop Men</h3>
+    </article>
+    <article class="cat-card" data-cat="women" onclick="filterProduk('women')">
+      <img src="foto-tes.JPG" alt="Wanita"/>
+      <h3>Shop Women</h3>
+    </article>
+    <article class="cat-card" data-cat="kids" onclick="filterProduk('kids')">
+      <img src="foto-tes.JPG" alt="Anak"/>
+      <h3>Shop Kids</h3>
+    </article>
+      <article class="cat-card" data-cat="kids" onclick="filterProduk('men')">
+      <img src="foto-tes.JPG" alt="Anak"/>
+      <h3>Shop men</h3>
+    </article>
+  </section>
+  <!-- Lightbox -->
+<div id="lightbox" class="lightbox">
+  <img id="lightbox-img" src="" alt="Preview Besar" />
+</div>
+
+<section class="contact-section" id="kontak" >
+  <h2>Hubungi Kami</h2>
+  <div class="contact-container">
+    <div class="contact-info">
+      <h3>Informasi Kontak</h3>
+      <p><strong>Alamat:</strong> Jl. Mawar No.123, Denpasar</p>
+      <p><strong>Email:</strong> kontak@tokokita.id</p>
+      <p><strong>WhatsApp:</strong> +62 812-3456-7890</p>
+
+    <iframe class="maps"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d681.2676698244641!2d116.14505279192797!3d-8.602801126929952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdb95c05fbc471%3A0x7100ec4ba81dc912!2sBTN%20SWETA%20INDAH!5e0!3m2!1sid!2sid!4v1753080310535!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
