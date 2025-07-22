@@ -189,6 +189,7 @@ button {
   background: none;
   border: 1px solid #ddd;
   padding: 0.25rem 0.5rem;
+  margin-right: 20px;
   border-radius: var(--radius-sm);
   font-size: 1rem;
   display: inline-flex;
