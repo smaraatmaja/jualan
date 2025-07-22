@@ -190,9 +190,9 @@ button {
   border: 1px solid #ddd;
   padding: 0.25rem 0.5rem;
   margin-right: 20px;
+  color: #249d79;
   border-radius: var(--radius-sm);
   font-size: 1.3rem;
-  color: 249d79;
   display: inline-flex;
   align-items: center;
   justify-content: center;
