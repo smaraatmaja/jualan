@@ -16,21 +16,21 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 const semuaProduk = [
-  { id: 1, nama: "Cenige Besar", harga: 150000, gambar: "Cenige besar.jpeg", kategori: "Jaitan" },
-  { id: 2, nama: "Cenige Gantungan Kecil", harga: 80000, gambar: "Cenige gantungan kecil.jpeg", kategori: "Jaitan" },
-  { id: 3, nama: "Cenige Gantungan", harga: 120000, gambar: "Cenige gantungan utk galungan.jpeg", kategori: "Galungan" },
-  { id: 4, nama: "Cenige Tamiyang", harga: 90000, gambar: "Cenige tamiyang Ter utk Kuningan.jpeg", kategori: "Galungan" },
-  { id: 5, nama: "Gantungan", harga: 90000, gambar: "Gantungan.jpeg", kategori: "Jaitan" },
-  { id: 6, nama: "Gelungan Rejang Dewa", harga: 90000, gambar: "Gelungan rejang dewa.jpeg", kategori: "Jaitan" },
-  { id: 7, nama: "Gelungan Sanggah Penjor", harga: 90000, gambar: "Gelungan sanggah Penjor.jpeg", kategori: "Galungan" },
-  { id: 8, nama: "Janur Jering", harga: 90000, gambar: "Janur jering.jpeg", kategori: "Galungan" },
-  { id: 9, nama: "Janur Kembang Mayang", harga: 90000, gambar: "Janur kembang Mayang.jpeg", kategori: "Galungan" },
-  { id: 10, nama: "Janur Merak", harga: 90000, gambar: "Janur merak.jpeg", kategori: "Galungan" },
-  { id: 11, nama: "Janur Penjor", harga: 90000, gambar: "Janur Penjor.jpeg", kategori: "Galungan" },
-  { id: 12, nama: "Kolong' Penjor 4,5meter", harga: 90000, gambar: "Kolong2 Penjor 4,5meter.jpeg", kategori: "Galungan" },
-  { id: 13, nama: "Lamak", harga: 90000, gambar: "Lamak.jpeg", kategori: "Jaitan" },
-  { id: 14, nama: "Sampian Gebogan", harga: 90000, gambar: "Sampian gebogan.jpeg", kategori: "Jaitan" },
-  { id: 15, nama: "Sampian Penjor Besar", harga: 90000, gambar: "Sampian Penjor besar.jpeg", kategori: "Galungan" },
+  { id: 1, nama: "Cenige Besar", harga: 30.000, gambar: "Cenige besar.jpeg", kategori: "Jaitan" },
+  { id: 2, nama: "Cenige Gantungan Kecil", harga: 5.500, gambar: "Cenige gantungan kecil.jpeg", kategori: "Jaitan" },
+  { id: 3, nama: "Cenige Gantungan", harga: 5.500, gambar: "Cenige gantungan utk galungan.jpeg", kategori: "Galungan" },
+  { id: 4, nama: "Cenige Tamiyang", harga: 10.000, gambar: "Cenige tamiyang Ter utk Kuningan.jpeg", kategori: "Galungan" },
+  { id: 5, nama: "Gantungan", harga: 5.000, gambar: "Gantungan.jpeg", kategori: "Jaitan" },
+  { id: 6, nama: "Gelungan Rejang Dewa", harga: 20.000, gambar: "Gelungan rejang dewa.jpeg", kategori: "Jaitan" },
+  { id: 7, nama: "Gelungan Sanggah Penjor", harga: 12.000, gambar: "Gelungan sanggah Penjor.jpeg", kategori: "Galungan" },
+  { id: 8, nama: "Janur Penjor", harga: 150.000, gambar: "Janur jering.jpeg", kategori: "Galungan" },
+  { id: 9, nama: "Janur Kembang Mayang Sepasang", harga: 500.000, gambar: "Janur kembang Mayang.jpeg", kategori: "Galungan" },
+  { id: 10, nama: "Janur Merak", harga: 60.000, gambar: "Janur merak.jpeg", kategori: "Galungan" },
+  { id: 11, nama: "Janur Penjor", harga: 25.000, gambar: "Janur Penjor.jpeg", kategori: "Galungan" },
+  { id: 12, nama: "Kolong' Penjor 4,5meter", harga: 25.000, gambar: "Kolong2 Penjor 4,5meter.jpeg", kategori: "Galungan" },
+  { id: 13, nama: "Lamak", harga: 40.000, gambar: "Lamak.jpeg", kategori: "Jaitan" },
+  { id: 14, nama: "Sampian Gebogan", harga: 60.000, gambar: "Sampian gebogan.jpeg", kategori: "Jaitan" },
+  { id: 15, nama: "Sampian Penjor Besar", harga: 100.000, gambar: "Sampian Penjor besar.jpeg", kategori: "Galungan" },
 ];
 
 function tampilkanProduk(filtered = semuaProduk) {
