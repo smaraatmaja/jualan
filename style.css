@@ -33,9 +33,9 @@ body {
   color: var(--clr-text);
   background: var(--clr-bg);
   line-height: 1.4;
-  background: rgba(255, 255, 255, 0.1); /* semi transparan */
-  backdrop-filter: blur(4px); /* efek blur */
-  -webkit-backdrop-filter: blur(4px); /* Safari support */
+  background: rgba(0, 0, 0, 0.1); /* semi transparan */
+  backdrop-filter: blur(6px); /* efek blur */
+  -webkit-backdrop-filter: blur(6px); /* Safari support */
 }
 
 a {
@@ -226,8 +226,11 @@ button {
   color: var(--clr-accent);
 }
 .hero-text p {
+  border-radius: 24px;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
   margin: 0.75rem 0 1.25rem;
-  color: #2ebf91;
+  color: #fff;
   font-weight: 550;
 }
 
