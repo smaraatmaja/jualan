@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 const semuaProduk = [
-  { id: 1, nama: "Cenige Besar", harga: 30.000, gambar: "Cenige besar.jpeg", kategori: "Jaitan" },
+  { id: 1, nama: "Cenige Besar", harga: 30_000, gambar: "Cenige besar.jpeg", kategori: "Jaitan" },
   { id: 2, nama: "Cenige Gantungan Kecil", harga: 5.500, gambar: "Cenige gantungan kecil.jpeg", kategori: "Jaitan" },
   { id: 3, nama: "Cenige Gantungan", harga: 5.500, gambar: "Cenige gantungan utk galungan.jpeg", kategori: "Galungan" },
   { id: 4, nama: "Cenige Tamiyang", harga: 10.000, gambar: "Cenige tamiyang Ter utk Kuningan.jpeg", kategori: "Galungan" },
