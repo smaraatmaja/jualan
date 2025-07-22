@@ -216,6 +216,9 @@ button {
 .hero {
   background: var(--clr-white);
   padding: 2rem 0;
+  background: rgba(255, 255, 255, 0.1); /* semi transparan */
+  backdrop-filter: blur(4px); /* efek blur */
+  -webkit-backdrop-filter: blur(4px); /* Safari support */
 }
 .hero-content {
   min-height: 80vh; /* ini membuat kontennya tidak terlalu atas */
