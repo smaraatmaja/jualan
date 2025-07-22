@@ -12,10 +12,18 @@ html, body {
 
 
 header {
-    background: #2ebf91;
-    color: #fff;
+  display: flex;
+    background: #fff;
+    color: #2ebf91;
+    text-align: center;
+    justify-content: center;
     text-align: center;
     padding: 1rem;
+}
+
+header img {
+  margin-top: 10px;
+  margin-right: 10px;
 }
 
 main {
@@ -38,22 +46,6 @@ ul#cartItems {
   padding: 10px;
 }
 
-.cart-item img {
-  width: 70px;
-  height: 70px;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
-.item-details {
-  flex: 1;
-  font-size: 0.9rem;
-}
-
-.item-details h4 {
-  margin: 4px 0;
-  font-size: 0.95rem;
-}
 
 .qty-controls {
   display: flex;
@@ -147,7 +139,6 @@ ul#cartItems {
     gap: 10px;
     margin-bottom: 1rem;
     align-items: center;
-    background: #f9f9f9;
     border-radius: 12px;
     padding: 10px;
 }
