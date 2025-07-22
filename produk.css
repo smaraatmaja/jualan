@@ -97,12 +97,25 @@ button {
   padding: 1rem;
 }
 
-.logo {
-  font-size: 1.8rem;
-  font-weight: 700;
-  color: #2ebf91;
-  font-family: 'Poppins', sans-serif;
+/*logo*/
+
+.gambar {
+  display: flex;
 }
+.gambar img {
+  margin-left: 20px;
+  margin-right: 10px;
+  width: 40px;
+  height: auto;
+}
+
+.gambar h1 {
+  padding-top: 4.5px;
+  font-size: 25px;
+  color: #249d79;
+  font-family: 'AksaraBali';
+}
+
 
 .main-nav ul {
   list-style: none;
@@ -286,7 +299,8 @@ button {
   height: 35px;
   background: var(--clr-white);
   border: 1px solid #ddd;
-  color: var(--clr-text-light);
+  color: #2ebf91;
+  font-weight: 800;
   padding: 0.35rem 0.9rem;
   border-radius: 999px;
   font-size: 0.85rem;
