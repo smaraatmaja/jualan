@@ -237,7 +237,8 @@ button {
 }
 .hero-text p {
   margin: 0.75rem 0 1.25rem;
-  color: var(--clr-text-light);
+  color: black;
+  font-weight: 550;
 }
 
 /* BUTTONS */
