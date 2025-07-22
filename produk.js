@@ -26,7 +26,7 @@ const semuaProduk = [
   { id: 8, nama: "Janur Jering", harga: 90000, gambar: "Janur jering.jpeg", kategori: "Galungan" },
   { id: 9, nama: "Janur Kembang Mayang", harga: 90000, gambar: "Janur kembang Mayang.jpeg", kategori: "Galungan" },
   { id: 10, nama: "Janur Merak", harga: 90000, gambar: "Janur merak.jpeg", kategori: "Galungan" },
-  { id: 11, nama: "Janur Penjor", harga: 90000, gambar: "Janur penjor.jpeg", kategori: "Galungan" },
+  { id: 11, nama: "Janur Penjor", harga: 90000, gambar: "Janur Penjor.jpeg", kategori: "Galungan" },
   { id: 12, nama: "Kolong' Penjor 4,5meter", harga: 90000, gambar: "Kolong2 Penjor 4,5meter.jpeg", kategori: "Galungan" },
   { id: 13, nama: "Lamak", harga: 90000, gambar: "Lamak.jpeg", kategori: "Jaitan" },
   { id: 14, nama: "Sampian Gebogan", harga: 90000, gambar: "Sampian gebogan.jpeg", kategori: "Jaitan" },
