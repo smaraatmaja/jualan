@@ -33,6 +33,9 @@ body {
   color: var(--clr-text);
   background: var(--clr-bg);
   line-height: 1.4;
+  background: rgba(255, 255, 255, 0.1); /* semi transparan */
+  backdrop-filter: blur(4px); /* efek blur */
+  -webkit-backdrop-filter: blur(4px); /* Safari support */
 }
 
 a {
@@ -88,8 +91,8 @@ button {
   box-shadow: var(--shadow-sm);
 }
 .header-inner {
-  background-color: rgba(46, 191, 145, 0.3); /* warna hijau dari --clr-primary */
-  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.3); /* putih transparan */
+  backdrop-filter: blur(10px); /* efek blur */
   -webkit-backdrop-filter: blur(10px); /* untuk Safari */
   display: flex;
   align-items: center;
@@ -119,6 +122,10 @@ button {
 
 /* MAIN NAV */
 .main-nav {
+  background: rgba(255, 255, 255, 0.3); /* putih transparan */
+  backdrop-filter: blur(10px); /* efek blur */
+  -webkit-backdrop-filter: blur(10px); /* untuk Safari */
+  z-index: 999;
   position: fixed;
   inset: 0 0 auto auto;
   top: 0;
@@ -126,9 +133,6 @@ button {
   width: 45%;
   max-width: 260px;
   height: 100vh;
-    background: rgba(255, 255, 255, 0.3); /* putih transparan */
-  backdrop-filter: blur(10px); /* efek blur */
-  -webkit-backdrop-filter: blur(10px); /* untuk Safari */
   box-shadow: var(--shadow-md);
   padding-top: 4rem;
   transition: right var(--trans-med) ease;
@@ -145,7 +149,7 @@ button {
 }
 .main-nav a {
   font-weight: 500;
-  color: white;
+  color: black;
 }
 .nav-close {
   position: absolute;
@@ -198,28 +202,13 @@ button {
   justify-content: center;
 }
 
-/* SEARCH BAR */
-.search-bar {
-  background: var(--clr-white);
-  padding: 0.5rem;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
-}
-.search-bar input {
-  width: 100%;
-  padding: 0.6rem 1rem;
-  border: 1px solid #ccc;
-  border-radius: var(--radius-sm);
-}
 
 /* HERO */
 .hero {
   background: var(--clr-white);
   padding: 2rem 0;
-  background: rgba(255, 255, 255, 0.1); /* semi transparan */
-  backdrop-filter: blur(4px); /* efek blur */
-  -webkit-backdrop-filter: blur(4px); /* Safari support */
 }
+
 .hero-content {
   min-height: 80vh; /* ini membuat kontennya tidak terlalu atas */
   display: grid;
