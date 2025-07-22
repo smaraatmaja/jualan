@@ -74,7 +74,7 @@ function kirimPesanKeWhatsApp() {
   }
 
   // Buat pesan WhatsApp
-  let pesan = "Halo, saya ingin memesan:\n\n";
+  let pesan = "Om Swastiastu, saya ingin memesan:\n\n";
   let total = 0;
 
   keranjang.forEach((item, i) => {
